@@ -2851,6 +2851,7 @@
             listViewItem158.ToolTipText = "13";
             listViewItem159.StateImageIndex = 0;
             listViewItem159.Tag = "Melee";
+            listViewItem159.ToolTipText = "13";
             listViewItem160.StateImageIndex = 0;
             listViewItem160.Tag = "Melee";
             listViewItem160.ToolTipText = "13";
