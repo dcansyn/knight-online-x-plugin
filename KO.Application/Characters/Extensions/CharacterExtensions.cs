@@ -155,6 +155,7 @@ namespace KO.Application.Characters.Extensions
             switch (character.GetCharacterClassId())
             {
                 case 101:
+                case 201:
                     return CharacterClassNameType.Warrior;
                 case 105:
                 case 205:
@@ -163,6 +164,7 @@ namespace KO.Application.Characters.Extensions
                 case 206:
                     return CharacterClassNameType.MasterWarrior;
                 case 102:
+                case 202:
                     return CharacterClassNameType.Rogue;
                 case 107:
                 case 207:
@@ -171,6 +173,7 @@ namespace KO.Application.Characters.Extensions
                 case 208:
                     return CharacterClassNameType.MasterRogue;
                 case 103:
+                case 203:
                     return CharacterClassNameType.Magician;
                 case 109:
                 case 209:
@@ -179,6 +182,7 @@ namespace KO.Application.Characters.Extensions
                 case 210:
                     return CharacterClassNameType.MasterMagician;
                 case 104:
+                case 204:
                     return CharacterClassNameType.Priest;
                 case 111:
                 case 211:
@@ -205,24 +209,28 @@ namespace KO.Application.Characters.Extensions
             switch (character.GetCharacterClassId())
             {
                 case 101:
+                case 201:
                 case 105:
                 case 205:
                 case 106:
                 case 206:
                     return CharacterClassType.Warrior;
                 case 102:
+                case 202:
                 case 107:
                 case 207:
                 case 108:
                 case 208:
                     return CharacterClassType.Rogue;
                 case 103:
+                case 203:
                 case 109:
                 case 209:
                 case 110:
                 case 210:
                     return CharacterClassType.Magician;
                 case 104:
+                case 204:
                 case 111:
                 case 211:
                 case 112:
